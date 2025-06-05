@@ -1,0 +1,250 @@
+{
+  "name": "Reckless Achievers",
+  "description": "A vibrant community for ambitious creators, innovators, and entrepreneurs.",
+  "icon": null,
+  "verification_level": 2,
+  "default_message_notifications": 1,
+  "explicit_content_filter": 2,
+  "roles": [
+    {
+      "name": "🌟 Community Lead",
+      "color": "#FF4646",
+      "permissions": 8,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "🛡️ Moderator",
+      "color": "#4B0082",
+      "permissions": 1099511627775,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "💎 Elite Achiever",
+      "color": "#00FFFF",
+      "permissions": 104324673,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "⭐ Achiever",
+      "color": "#FFD700",
+      "permissions": 104189505,
+      "hoist": true,
+      "mentionable": true
+    },
+    {
+      "name": "🆕 Unverified",
+      "color": "#99AAB5",
+      "permissions": 66560,
+      "hoist": false,
+      "mentionable": false
+    }
+  ],
+  "channels": [
+    {
+      "name": "🎯 WELCOME",
+      "type": 4
+    },
+    {
+      "name": "👋-welcome",
+      "type": 0,
+      "parent_id": "🎯 WELCOME",
+      "topic": "Welcome to Reckless Achievers! Your journey to success starts here."
+    },
+    {
+      "name": "📢-announcements",
+      "type": 0,
+      "parent_id": "🎯 WELCOME",
+      "topic": "Important updates and community announcements"
+    },
+    {
+      "name": "👋-introductions",
+      "type": 0,
+      "parent_id": "🎯 WELCOME",
+      "topic": "Introduce yourself! Share your story, goals, and what brings you here."
+    },
+    {
+      "name": "📜-rules",
+      "type": 0,
+      "parent_id": "🎯 WELCOME",
+      "topic": "Our community guidelines and code of conduct"
+    },
+    {
+      "name": "✅-verify",
+      "type": 0,
+      "parent_id": "🎯 WELCOME",
+      "topic": "Verify your account to access the community"
+    },
+    {
+      "name": "🏆 COMMUNITY",
+      "type": 4
+    },
+    {
+      "name": "🗣️-general",
+      "type": 0,
+      "parent_id": "🏆 COMMUNITY",
+      "topic": "General discussions and community chat"
+    },
+    {
+      "name": "🎯-goals",
+      "type": 0,
+      "parent_id": "🏆 COMMUNITY",
+      "topic": "Share and track your goals with the community"
+    },
+    {
+      "name": "💪-achievements",
+      "type": 0,
+      "parent_id": "🏆 COMMUNITY",
+      "topic": "Celebrate your wins and milestones"
+    },
+    {
+      "name": "🎨 CREATIVE ZONE",
+      "type": 4
+    },
+    {
+      "name": "🖼️-showcase",
+      "type": 0,
+      "parent_id": "🎨 CREATIVE ZONE",
+      "topic": "Share your creative work and projects"
+    },
+    {
+      "name": "🎨-design",
+      "type": 0,
+      "parent_id": "🎨 CREATIVE ZONE",
+      "topic": "Design discussions and feedback"
+    },
+    {
+      "name": "🎵-music",
+      "type": 0,
+      "parent_id": "🎨 CREATIVE ZONE",
+      "topic": "Music production and discussion"
+    },
+    {
+      "name": "🎬-content",
+      "type": 0,
+      "parent_id": "🎨 CREATIVE ZONE",
+      "topic": "Content creation and strategies"
+    },
+    {
+      "name": "💻 TECH HUB",
+      "type": 4
+    },
+    {
+      "name": "💻-programming",
+      "type": 0,
+      "parent_id": "💻 TECH HUB",
+      "topic": "Programming discussions and help"
+    },
+    {
+      "name": "🤖-ai-ml",
+      "type": 0,
+      "parent_id": "💻 TECH HUB",
+      "topic": "AI, Machine Learning, and Data Science"
+    },
+    {
+      "name": "🌐-web-dev",
+      "type": 0,
+      "parent_id": "💻 TECH HUB",
+      "topic": "Web development discussions"
+    },
+    {
+      "name": "📱-mobile-dev",
+      "type": 0,
+      "parent_id": "💻 TECH HUB",
+      "topic": "Mobile app development"
+    },
+    {
+      "name": "💰 BUSINESS & FINANCE",
+      "type": 4
+    },
+    {
+      "name": "📈-investing",
+      "type": 0,
+      "parent_id": "💰 BUSINESS & FINANCE",
+      "topic": "Investment strategies and discussions"
+    },
+    {
+      "name": "💡-startups",
+      "type": 0,
+      "parent_id": "💰 BUSINESS & FINANCE",
+      "topic": "Startup discussions and advice"
+    },
+    {
+      "name": "🚀-side-hustles",
+      "type": 0,
+      "parent_id": "💰 BUSINESS & FINANCE",
+      "topic": "Side project discussions and ideas"
+    },
+    {
+      "name": "💹-crypto",
+      "type": 0,
+      "parent_id": "💰 BUSINESS & FINANCE",
+      "topic": "Cryptocurrency discussions"
+    },
+    {
+      "name": "🎙️ VOICE LOUNGES",
+      "type": 4
+    },
+    {
+      "name": "🎯 Strategy Room",
+      "type": 2,
+      "parent_id": "🎙️ VOICE LOUNGES"
+    },
+    {
+      "name": "💡 Brainstorming",
+      "type": 2,
+      "parent_id": "🎙️ VOICE LOUNGES"
+    },
+    {
+      "name": "🎮 Chill Zone",
+      "type": 2,
+      "parent_id": "🎙️ VOICE LOUNGES"
+    },
+    {
+      "name": "🎯 RESOURCES",
+      "type": 4
+    },
+    {
+      "name": "📚-learning",
+      "type": 0,
+      "parent_id": "🎯 RESOURCES",
+      "topic": "Learning resources and materials"
+    },
+    {
+      "name": "🔗-useful-links",
+      "type": 0,
+      "parent_id": "🎯 RESOURCES",
+      "topic": "Helpful links and resources"
+    },
+    {
+      "name": "💡-tools",
+      "type": 0,
+      "parent_id": "🎯 RESOURCES",
+      "topic": "Recommended tools and software"
+    },
+    {
+      "name": "🤝 NETWORKING",
+      "type": 4
+    },
+    {
+      "name": "💼-job-board",
+      "type": 0,
+      "parent_id": "🤝 NETWORKING",
+      "topic": "Job opportunities and listings"
+    },
+    {
+      "name": "🤝-collaborations",
+      "type": 0,
+      "parent_id": "🤝 NETWORKING",
+      "topic": "Find collaboration partners"
+    },
+    {
+      "name": "📢-self-promo",
+      "type": 0,
+      "parent_id": "🤝 NETWORKING",
+      "topic": "Share your work and services"
+    }
+  ]
+}
